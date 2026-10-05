@@ -39,8 +39,8 @@ if api_key:
         if st.button("🚀 Process Pages with AI", type="primary"):
             with st.spinner("Analyzing World Cup 2026 stickers, reading numbers, player names, and categories..."):
                 try:
-                    # Initialize Gemini Vision Model
-                    model = genai.GenerativeModel('gemini-2.5-flash')
+                    # Initialize updated Gemini Vision Model
+                    model = genai.GenerativeModel('gemini-3.8-flash')
                     
                     # Prepare images for the API
                     image_parts = []
